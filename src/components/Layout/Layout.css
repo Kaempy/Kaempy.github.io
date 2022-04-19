@@ -1,0 +1,43 @@
+.card {
+  margin: 9rem;
+  padding: 1rem 2rem;
+  background-color: rgb(26, 43, 63);
+}
+@media screen and (max-width: 425px) {
+  .card {
+    margin: 2rem;
+    padding: 1rem;
+  }
+}
+
+.h2 {
+  text-align: center;
+}
+.btn {
+  width: 90%;
+}
+@media screen and (max-width: 1440px) {
+  .btn {
+    width: 96%;
+    font-size: large;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 2rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .btn {
+    width: 94%;
+    font-size: medium;
+  }
+}
+@media screen and (max-width: 768px) {
+  .btn {
+    width: 92%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .btn {
+    width: 80%;
+  }
+}

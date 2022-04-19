@@ -1,0 +1,63 @@
+.section {
+  padding: 2rem;
+}
+.card {
+  padding: 1rem 2rem;
+  background-color: rgb(26, 43, 63);
+}
+@media screen and (max-width: 425px) {
+  .card {
+    padding: 1rem;
+  }
+}
+.h2 {
+  text-align: center;
+}
+@media screen and (max-width: 425px) {
+  .h2 {
+    font-size: medium;
+  }
+}
+hr {
+  margin-bottom: 3rem;
+}
+.form-control {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 425px) {
+  .form-control {
+    display: block;
+  }
+}
+.input {
+  width: 181vh;
+}
+@media screen and (max-width: 1024px) {
+  .input {
+    width: 54.5rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .input {
+    width: 38.5rem;
+  }
+}
+@media screen and (max-width: 425px) {
+  .input {
+    width: 100%;
+  }
+}
+.sub-input {
+  width: 22rem;
+}
+@media screen and (max-width: 1024px) {
+  .sub-input {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .sub-input {
+    width: 95%;
+  }
+}

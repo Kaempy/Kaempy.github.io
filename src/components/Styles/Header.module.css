@@ -1,0 +1,58 @@
+.header {
+  display: flex;
+  background-color: rgb(3, 120, 216);
+  color: rgb(255, 254, 251);
+  height: 3.25rem;
+  padding: 1rem;
+  justify-content: space-between;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+@media screen and (max-width: 425px) {
+  .header {
+    height: 1.25rem;
+
+  }
+}
+.h1 {
+  font-size: larger;
+  padding-left: 1rem;
+}
+@media screen and (max-width: 425px) {
+  .h1 {
+    font-size: small;
+    padding-left: 0.5rem;
+  }
+  ul {
+    padding-right: 0.5rem;
+  }
+}
+ul {
+  list-style: none;
+  padding-right: 1rem;
+}
+@media screen and (max-width: 425px) {
+  ul {
+    padding-right: 0.5rem;
+    margin: 0.5rem auto;
+  }
+}
+.list {
+  font-weight: bold;
+}
+.list a {
+  padding: 0.5rem;
+  text-decoration: none;
+  color: inherit;
+}
+@media screen and (max-width:425px) {
+  
+  .list a {
+    font-size: small;
+    padding:  0 0.5rem;
+  }
+}
+.list a:hover {
+  cursor: pointer;
+  background-color: rgb(54, 162, 251);
+  border-radius: 0.5rem;
+}
